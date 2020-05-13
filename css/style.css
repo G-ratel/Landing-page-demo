@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Prata');
+
+body{
+    font-family: 'Prata', serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    width: auto;
+    margin: 10px 10px 10px 10px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 1580px;
+    justify-content: center;
+}
+.container2 {
+    width: 100%;
+    width: auto;
+    background-color: rgb(4, 95, 95);
+    border-radius: 20px;
+    height: 470px;
+    justify-content: center;
+}
+header {
+    background: rgb(2, 58, 58);
+    width: 100%;
+    float: left;   
+}
+p {
+    font-size: 14px;
+}
+nav {
+    width: 50%;
+    margin: auto;
+}
+nav ul{
+    width: auto;
+    float: left;   
+}
+nav ul .left{
+    width: 40%;
+}
+nav ul .right{
+    width: 40%;
+    float: right;
+}
+nav ul li{
+    display: inline;
+    padding: 10px 25px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: white;
+}
+.showcase {
+    width: 50%;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .brandc {
+    flex: 45%;
+    max-width: 45%;
+    padding: 0 4px;
+  }
+  .b {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.a {
+    padding-top: 110px;
+}
+.brand div{
+    float: left;
+}
+.brand::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.brand1 {
+    width: 45%;
+    padding-top: 40px;
+}
+.brand2 {
+    width: 45%;
+    float: right;
+    padding-left: 40px;
+    padding-top: 70px;
+}
+.brand2 p{
+    color: whitesmoke;
+}
+.brand2 h2{
+    color: whitesmoke;
+}
+.price {
+    padding-left: 20px;
+}
+.brandtext img {
+    width: 70%;
+}
+.info {
+    width: 50%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.rating div{
+    float: left;
+}
+.rating::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.rate1 {
+    width: 45%;
+    padding-right: 30px;
+    text-align: center;
+}
+.rate1 img {
+    width: 35%;
+}
+.rate2 {
+    width: 45%;
+    float: right;
+    padding-right: 30px;
+    text-align: center;
+}
+.rate2 img {
+    width: 35%;
+}
+.subscribe {
+    width: 60%;
+    margin: auto;
+    background-color: rgb(15, 15, 206);
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 70px;
+}
+.subscribe h2 {
+    text-align: center;
+    color: white;
+}
+.subscribe p {
+    text-align: center;
+    color: white;
+}
+form.index-search-form {
+    position: relative;
+    display: inline-flex;
+    
+  }
+  
+  button[name="submit"] {
+    position: absolute;
+    top: 4px;
+    right: 3px;
+    padding: 7px 10px 7px 10px;
+    border-radius: 30px;
+    background-color: rgb(19, 19, 156);
+    color: white;
+  }
+  
+  input.search-box {
+      margin-left: 50px;
+    width: 250px;
+    font-family: FontAwesome;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+  }
+  .footer {
+    width: 40%;
+    margin: auto;
+    padding-top: 140px;
+    padding-bottom: 80px;
+}
+.footer span {
+    font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+    nav, .showcase, .info {
+        width: 60%; 
+    }
+    .container {
+        height: 1480px;
+    }
+  }
+  @media (max-width: 1036px) {
+    nav, .showcase, .info {
+        width: 65%; 
+    }
+    .container {
+        height: 1480px;
+    }
+  }
+@media (max-width: 959px) {
+    nav, .showcase, .info {
+        width: 70%; 
+    }
+    .container {
+        height: 1480px;
+    }
+  }
+  @media (max-width: 893px) {
+    nav, .showcase, .info {
+        width: 80%; 
+    }
+    .container {
+        height: 1480px;
+    }
+  }
+  @media (max-width: 786px) {
+    nav, .showcase, .info {
+        width: 90%; 
+    }
+    .container {
+        height: 1480px;
+    }
+  }
+  @media (max-width: 703px) {
+    nav, .showcase, .info {
+        width: 95%; 
+    }
+    .container {
+        height: 1480px;
+    }
+  }
+  @media (max-width: 668px) {
+    nav, .showcase, .info {
+        width: 100%; 
+    }
+    .container {
+        height: 1480px;
+    }
+  }
+  @media (max-width: 637px) {
+    nav, .showcase, .info {
+        width: 100%; 
+    }
+    .left, .rate2 {
+        display: none; 
+    }
+    .rate1 {
+        width: 70%; 
+        padding-left: 49px;
+    }
+    input.search-box {
+        margin-left: 20px;
+      width: 200px;
+    }
+    .footer {
+      width: 60%;
+    }
+    .container {
+        height: 980px;
+    }
+    .container2 {
+        height: 410px;
+    }
+    .a {
+        padding-top: 40px;
+    }
+  }
